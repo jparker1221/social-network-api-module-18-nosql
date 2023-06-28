@@ -2,11 +2,11 @@
     "name": "social-network-api-module-18-nosql",
     "version": "1.0.1",
     "description": "API for a social network web application using MongoDB/Mongoose",
-    "main": "index.js",
+    "main": "server.js",
     "license": "MIT",
     "scripts": {
-      "start": "node index",
-      "dev": "nodemon index",
+      "start": "node server",
+      "dev": "nodemon server",
       "seed": "node utils/seed",
       "heroku-postbuild": "node utils/seed.js"
     },
