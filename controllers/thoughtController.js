@@ -10,7 +10,7 @@ const thoughtController = {
     },
     // Get a single thought by its id
     getThoughtById(req, res) {
-        Thought.findById(req.params.thoughtId)
+        Thought.findById(req.params.id)
             .then(thoughtData => res.json(thoughtData))
             .catch(err => res.status(500).json(err));
     },

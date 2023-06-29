@@ -9,7 +9,7 @@ const userController = {
     },
     // Get a single user by id
     getUserById(req, res) {
-        User.findById(req.params.userId).populate("thoughts").populate("friends")
+        User.findById(req.params.id).populate("thoughts").populate("friends")
             .then(userData => res.json(userData))
             .catch(err => res.status(500).json(err));
     },
@@ -64,7 +64,6 @@ const userController = {
             })
             .catch(err => res.status(500).json(err));
     },
-
 };
 
 module.exports = userController;
