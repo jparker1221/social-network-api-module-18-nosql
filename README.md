@@ -21,7 +21,8 @@ Download the .zip file or clone the repository into your source-code editor. Nav
 
 ## Usage
 
-N/A
+### Walkthrough Video
+[Click here to watch!](https://drive.google.com/file/d/10Z4TYVUTE446nquyp0VHRg2HWsqLGq5N/view)
 
 ## License
 
